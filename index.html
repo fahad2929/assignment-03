@@ -67,7 +67,7 @@
               <li><a>Contact Us </a></li>
             </ul>
           </div>
-          <a class="text-2xl font-bold"><i class="fa-solid fa-arrow-right text-2xl font-bold"></i> Rinterio</a>
+          <a class="text-2xl font-bold"> Rinterio</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
@@ -127,7 +127,7 @@
            </div>
          </section>
          <!-- our Works Process Section -->
-          <section class="bg-primary-color max-w-screen-xl mx-auto px-10 lg:px-25 mb-10">
+          <section class="bg-primary-color max-w-screen-xl mx-auto px-10 p-10 lg:px-25">
             <!-- Text Content -->
             <div class="text-center space-y-5 mb-10">
               <button class="btn btn-wide bg-white rounded-full">How We Works</button>
@@ -160,27 +160,65 @@
           </section>
     </header>
     <!-- Main section -->
-    <main>
-
+    <main class="p-12 max-w-screen-xl mx-auto px-10 lg:px-25 bg-cover bg-center bg-no-repeat bg-[url('assets/bg.jpg')] flex items-center justify-center">
+      <!--btn section and text section -->
+      <div class="space-y-5">
+       <div class="flex justify-center">
+        <button class="btn bg-btn-second rounded-full">Let's Connect</button>
+       </div>
+       <div class="text-center space-y-5">
+        <h3 class="text-4xl font-bold">Let's Discuss Next Project</h3>
+        <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+       </div>
+       <!-- form section -->
+       <div class="md:flex justify-center space-x-1">
+        <div class="space-y-5">
+          <label class="input input-bordered flex items-center w-72 rounded-full">
+            <input type="text" class="grow" placeholder="First Name*"/>
+           </label>
+           <label class="input input-bordered flex items-center rounded-full w-72">
+            <input type="text" class="grow" placeholder="Phone Name*"/>
+          </label>
+        </div>
+        <div>
+          <div class="space-y-5">
+            <label class="input input-bordered flex items-center rounded-full mt-5 md:mt-0 w-72">
+              <input type="text" class="grow" placeholder="Last Name*"/>
+            </label>
+            <label class="input input-bordered flex items-center rounded-full w-72 ">
+              <input type="text" class="grow" placeholder="Email*" />
+            </label>
+          </div>
+        </div>
+       </div>
+       <div class="flex justify-center">
+        <label class="input input-bordered rounded-xl w-11/12 h-40">
+          <input type="text" class="grow" placeholder="Write your message here*"/>
+        </label>
+       </div>
+       <div class="flex justify-center">
+        <button class="btn bg-btn-primary w-1/3 rounded-full">Send Mail</button>
+       </div>
+      </div>
+      <div>
     </main>
     <!-- Footer section -->
-    <footer>
-        <div class="bg-footer-color text-white space-y-20">
+    <footer class="max-w-screen-2xl mx-auto">
+        <div class="bg-footer-color text-white space-y-10">
           <div class="text-center p-6 space-y-5">
             <h3 class="text-2xl font-bold">Rinterio</h3>
             <p>Building a house requires a seamless integration of design, construction, <br> and functionality to create a space that truly feels like home.</p>
           </div>
-          <ul class=" md:flex justify-between text-center space-y-5 px-52">
+          <ul class="text-center md:flex justify-between lg:px-60 space-y-5">
             <li>Home</li>
             <li>Service</li>
             <li>Portfolio</li>
             <li>Blogs</li>
             <li>Contact Us</li>
           </ul>
-          <div class="btn btn-wide bg-btn-primary place-items-center rounded-full">
-          <button>Book Consult</button>
-          </div>
-        </div>
+         <div class="flex justify-center">
+        <button class="btn bg-btn-primary rounded-full"> Book Consult</button>
+         </div>
     </footer>
 </body>
 </html>
